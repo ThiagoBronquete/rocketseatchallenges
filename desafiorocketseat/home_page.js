@@ -11,9 +11,3 @@ coffeButton.onclick = function(){
 closeWarning.onclick = function(){
     warningButton.classList.remove("warning")
 }
-
-// coffeButton.addEventListener("click", message)
-
-// function message(){
-//     warningButton.classList.remove("hidden")
-// }
