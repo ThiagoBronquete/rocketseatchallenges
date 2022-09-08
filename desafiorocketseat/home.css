@@ -1,0 +1,142 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.firstRow{
+     display: flex;
+    gap: 2em;
+    z-index: 1;
+    padding: 0 360px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    border: solid 1px #8257E5;
+    width: 200px;
+    height: 28px;
+    background-color: transparent;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.layout {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#backOne {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;   
+}
+
+#backTwo {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+
+.cLogo{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+#coffeLogo {
+    z-index: -1;
+}
+
+#text {
+    display: flex;
+    position: absolute;
+    align-items: center ;
+    justify-content: end;
+    flex-flow: column;
+    height: 250px;
+    width: 700px;   
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.gText {
+    font-size: 90px;
+}
+
+.gCode {
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    color: black;
+    font-size: 90px;
+}
+
+.button-click {
+    display: flex;
+    position: relative;
+    flex-wrap:  wrap;
+    z-index: 1;
+    height: 300px;
+    width: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #161717;
+    margin: 200px auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 4px rgb(255 255 255 / 10%);
+    visibility: hidden;
+}
+
+.button-click.warning {
+    visibility: visible;
+}
+
+h1, h2{
+    color: #8257E5;
+}
+
+#close-warning {
+    height: 20px;
+    width: 15px;
+    transform: translate(10px, -200px);
+    display: block;
+    z-index: 1;
+}
+
+:root {
+    background: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  }
