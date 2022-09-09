@@ -1,0 +1,21 @@
+* {
+    font-family: "Merriweather Sans";
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+body {
+    background-color:var(--body-bg-color);
+    color: var(--text-color)
+}
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
